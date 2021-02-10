@@ -1,0 +1,75 @@
+    /* criando um estilo para comandos nativos do html*/
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        color:blueviolet; 
+    }
+
+    body{
+        background-color: rgb(250, 232, 153);
+    }
+
+    h1{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    /*criando uma classe de estilo*/
+    .menu{
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color:rgb(3, 3, 70);
+    }
+
+    .frase_obs{
+        font-size: 10px;
+        color:rgb(131, 131, 130);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .campo_nome{
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:12px;
+        color:red;
+        background-color: rgb(233, 233, 204);
+        width: 250px;
+    }
+
+    .campo_email{
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:12px;
+        color:red;
+        background-color: rgb(233, 233, 204);
+        width: 290px;
+    }
+    .campo_senha{
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:12px;
+        color:red;
+        background-color: rgb(233, 233, 204);
+        width: 60px;
+    }
+
+
+    /* estilos utilizados no bootstrap*/
+    .container{
+        border:3px solid brown;
+        width: 100%;
+    }
+    
+
+
+
+    /* criando um estilo para nome de componentes do tipo ID*/
+    #formulario_contato{
+        background-color: rgb(250, 250, 202);
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(115, 133, 80);
+        
+    }
